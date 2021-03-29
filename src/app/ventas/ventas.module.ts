@@ -5,6 +5,10 @@ import { NumerosComponent } from './pages/numeros/numeros.component';
 import { NoComunesComponent } from './pages/no-comunes/no-comunes.component';
 import { OrdenarComponent } from './pages/ordenar/ordenar.component';
 import { PrimeNGModule } from '../prime-ng/prime-ng.module';
+import { MayusculasPipe } from './pipes/mayusculas.pipe';
+import { VuelaPipe } from './pipes/vuela.pipe';
+import { ColorPipe } from './pipes/color.pipe';
+import { OrdenarPipe } from './pipes/ordenar.pipe';
 
 @NgModule({
   declarations: [
@@ -12,6 +16,10 @@ import { PrimeNGModule } from '../prime-ng/prime-ng.module';
     NumerosComponent,
     NoComunesComponent,
     OrdenarComponent,
+    MayusculasPipe,
+    VuelaPipe,
+    ColorPipe,
+    OrdenarPipe,
   ],
   imports: [CommonModule, PrimeNGModule],
   exports: [

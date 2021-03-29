@@ -35,9 +35,7 @@ export class NoComunesComponent {
   }
 
   eliminarCliente() {
-    if (this.clientes.length >= 0) {
-      this.clientes.pop();
-    }
+    this.clientes.pop();
   }
 
   //Json Pipe
